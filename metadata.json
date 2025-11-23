@@ -1,0 +1,5 @@
+{
+  "name": "EKOPIA Explorer",
+  "description": "A modern, high-performance Blockchain Explorer for the EKOPIA Chain using React and Tailwind CSS.",
+  "requestFramePermissions": []
+}
