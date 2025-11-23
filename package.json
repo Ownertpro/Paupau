@@ -2,10 +2,11 @@
   "name": "ekopia-explorer-backend",
   "version": "1.0.0",
   "description": "Backend for EKOPIA Explorer",
+  "type": "module",
   "main": "src/api/index.ts",
   "scripts": {
-    "start": "ts-node src/api/index.ts",
-    "dev": "ts-node src/api/index.ts",
+    "start": "node --loader ts-node/esm src/api/index.ts",
+    "dev": "node --loader ts-node/esm src/api/index.ts",
     "build": "tsc"
   },
   "dependencies": {
